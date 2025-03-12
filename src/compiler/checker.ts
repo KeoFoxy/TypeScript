@@ -45494,7 +45494,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
     }
 
     /**
-     * Gets the *yield*, *return*, and *next* types of a the `next()`, `return()`, or
+     * Gets the *yield*, *return*, and *next* types of the `next()`, `return()`, or
      * `throw()` method of an `Iterator`-like or `AsyncIterator`-like type.
      *
      * If we successfully found the *yield*, *return*, and *next* types, an `IterationTypes`

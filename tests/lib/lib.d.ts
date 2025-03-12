@@ -8989,7 +8989,7 @@ interface HTMLImageElement extends HTMLElement {
       */
     naturalWidth: number;
     /**
-      * The address or URL of the a media resource that is to be considered.
+      * The address or URL of the media resource that is to be considered.
       */
     src: string;
     srcset: string;
@@ -9142,7 +9142,7 @@ interface HTMLInputElement extends HTMLElement {
     selectionStart: number;
     size: number;
     /**
-      * The address or URL of the a media resource that is to be considered.
+      * The address or URL of the media resource that is to be considered.
       */
     src: string;
     status: boolean;
@@ -9591,7 +9591,7 @@ interface HTMLMediaElement extends HTMLElement {
       */
     seeking: boolean;
     /**
-      * The address or URL of the a media resource that is to be considered.
+      * The address or URL of the media resource that is to be considered.
       */
     src: string;
     textTracks: TextTrackList;
@@ -10284,7 +10284,7 @@ interface HTMLSourceElement extends HTMLElement {
     media: string;
     msKeySystem: string;
     /**
-      * The address or URL of the a media resource that is to be considered.
+      * The address or URL of the media resource that is to be considered.
       */
     src: string;
     /**

@@ -53,7 +53,7 @@ export interface DocumentRegistry {
      *
      * @param fileName The name of the file requested
      * @param compilationSettingsOrHost Some compilation settings like target affects the
-     * shape of a the resulting SourceFile. This allows the DocumentRegistry to store
+     * shape of the resulting SourceFile. This allows the DocumentRegistry to store
      * multiple copies of the same file for different compilation settings. A minimal
      * resolution cache is needed to fully define a source file's shape when
      * the compilation settings include `module: node16`+, so providing a cache host
@@ -90,7 +90,7 @@ export interface DocumentRegistry {
      *
      * @param fileName The name of the file requested
      * @param compilationSettingsOrHost Some compilation settings like target affects the
-     * shape of a the resulting SourceFile. This allows the DocumentRegistry to store
+     * shape of the resulting SourceFile. This allows the DocumentRegistry to store
      * multiple copies of the same file for different compilation settings. A minimal
      * resolution cache is needed to fully define a source file's shape when
      * the compilation settings include `module: node16`+, so providing a cache host

@@ -11515,7 +11515,7 @@ interface HTMLImageElement extends HTMLElement {
     /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes) */
     sizes: string;
     /**
-     * The address or URL of the a media resource that is to be considered.
+     * The address or URL of the media resource that is to be considered.
      *
      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/src)
      */
@@ -11741,7 +11741,7 @@ interface HTMLInputElement extends HTMLElement, PopoverInvokerElement {
     /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/size) */
     size: number;
     /**
-     * The address or URL of the a media resource that is to be considered.
+     * The address or URL of the media resource that is to be considered.
      *
      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/src)
      */
@@ -12261,7 +12261,7 @@ interface HTMLMediaElement extends HTMLElement {
      */
     readonly sinkId: string;
     /**
-     * The address or URL of the a media resource that is to be considered.
+     * The address or URL of the media resource that is to be considered.
      *
      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/src)
      */
@@ -13258,7 +13258,7 @@ interface HTMLSourceElement extends HTMLElement {
     /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/sizes) */
     sizes: string;
     /**
-     * The address or URL of the a media resource that is to be considered.
+     * The address or URL of the media resource that is to be considered.
      *
      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/src)
      */
